@@ -1,0 +1,114 @@
+Architecture
+	Architecture
+
+Business
+	Accounting
+	Business, Government, and Society
+	Finance
+	Info, Risk, and Operations Management
+	Management
+	Marketing
+	McCombs School of Business
+
+Communication
+	Communication Sciences and Disorders
+	Communication Studies
+	Journalism
+	Radio-Television
+	School of Advertising and Public Relations
+
+Education
+	Curriculum and Instruction
+	Educational Administration
+	Educational Psychology
+	Kinesiology and Health Education
+	Special Education
+
+Engineering
+	Aerospace Engineering and Engineering Mech [Mechanisms? Mechanics?]
+	Biomedical Engineering
+	Chemical Engineering
+	Civil, Architectural, and Environmental Engineering
+	Electrical and Computer Engineering
+	Mechanical Engineering
+	Petroleum and Geosystems Engineering
+
+Fine Arts
+	Art and Art History
+	Arts and Entertainment Technology
+	Fine Arts
+	School of Music
+	Theater and Dance
+
+Geosciences
+	Geological Sciences
+
+Information
+	Information
+
+Law
+	Law
+
+Liberal Arts
+	African and African Diaspora Studies
+	American Studies
+	Anthropology
+	Asian Studies
+	Center for Jewish Studies
+	Classics
+	Center for Asian American Studies
+	Economics
+	English
+	French and Italian
+	Geography and the Environment
+	Germanic Studies
+	Government
+	History
+	Humanities Program
+	Liberal Arts
+	Linguistics
+	Latin American Studies
+	Mexican American and Latina/o Studies
+	Middle Eastern Studies
+	Philosophy
+	Psychology
+	Religious Studies
+	Rhetoric and Writing
+	Slavic and Eurasian Studies
+	Sociology
+	Spanish and Portuguese
+	Uteach - Liberal Arts [I am not sure what this one is, but it only has 5 faculty, maybe it's best to ignore it]
+
+Medical School
+	Dell Medical School
+	
+Natural Sciences
+	Astronomy
+	Biology Instructional of...
+	Chemistry
+	Computer Science
+	Human Development and Family Sciences
+	Human Ecology
+	Integrative Biology
+	Marine Sciene
+	Mathematics
+	Molecular Biosciences
+	Natural Sciences
+	Neurosciences
+	Nutritional Sciences
+	Physics
+	Statistics and Data Sciences
+	Textiles
+	Uteach - Natural Sciences
+
+Nursing
+	Nursing
+
+Pharmacy
+	Pharmacy
+	
+Public Affairs
+	LBJ School of Public Affairs
+
+Social Work
+	Social Work

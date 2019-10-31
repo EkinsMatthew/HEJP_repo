@@ -1,0 +1,49 @@
+FS_Life_sciences
+	Agricultural sciences and natural resources
+	Biological and biomedical sciences
+	Health sciences
+
+FS_Physical_sciences_and_earth_sciences
+	Chemistry
+	Geosciences, atmospheric, and ocean sciences
+	Physics and astronomy
+
+FS_Mathematics_and_computer_sciences
+	Computer and information sciences
+	Mathematics and statistics
+
+FS_Psychology_and_social_sciences
+	Psychology
+	Anthropology
+	Economics
+	Political science and government
+	Sociology
+	Other social sciences
+
+FS_Engineering
+	Aerospace, aeronautical, and astronautical engineering
+	Bioengineering and biomedical engineering
+	Chemical engineering
+	Civil engineering
+	Electrical, electronics, and communications engineering
+	Industrial and manufacturing engineering
+	Materials science engineering
+	Mechanical engineering
+	Other engineering
+
+FS_Education
+	Education administration
+	Education research
+	Teacher education
+	Teaching fields
+	Other education
+
+FS_Humanities_and_arts
+	Foreign languages and literature
+	History
+	Letters
+	Other humanities and arts
+
+FS_Others
+	Business management and administration
+	Communication

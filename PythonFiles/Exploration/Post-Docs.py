@@ -45,6 +45,8 @@ def breakout(df, year, category):
     Returns:
     DataFrame with 
     '''
+    num = df['Job ID'].nunique()
+    df = df[df['Year']==year]
     cat = pd.DataFrame(df[category].value_counts()).reset_index()
     cat = cat.rename(columns={category:'count'})
     cat['inc'] = np.true_divide(cat['count'], num)
@@ -77,12 +79,12 @@ year2 = 2017
 main_zone1 = breakout(main, year1, 'Institution_BEA_zone')
 main_zone2 = breakout(main, year2, 'Institution_BEA_zone')
 
-main_zone_g = growth(main_zone1, main_zone2, num1, num2)
+main_zone_g = growth(main_zone1, main_zone2)
 
 zone1 = breakout(post, year1, 'Institution_BEA_zone')
 zone2 = breakout(post, year2, 'Institution_BEA_zone')
 
-zone_g = growth(zone1, zone2, num1, num2)
+zone_g = growth(zone1, zone2)
 
 # Superimposed Categorical growth:
 #     Two dataframes are used to graph categorical changes across two datasets and
@@ -142,8 +144,6 @@ def super_graph_growth(df1, df2, category, years, title, type1, type2, colors1, 
     
     plt.show()
 
-    return None
-
 # Graph Post-Doc vs HEJP baseline superimposed
 super_graph_growth(zone_g, main_zone_g, 'BEA Zone', (2007, 2017), 'Post-Doc BEA Zone Growth vs HEJP Baseline\n2007 to 2017', 
                    'Post-Docs', 'HEJP', ('royalblue', 'goldenrod'), ('cornflowerblue', 'gold'), scale2=100)
@@ -168,7 +168,7 @@ post2 = post[post['Year']==year2]['Job ID'].nunique()
 main2 = main[main['Year']==year2]['Job ID'].nunique()
 
 
-table = pd.DataFrame([['Post-Doc', post1, post2], ['HEJP\n(No PD)', main1, main2]], columns=['Type', year1, year2])
+table = pd.DataFrame([['Post-Doc', post1, post2], ['HEJP (No PD)', main1, main2]], columns=['Type', year1, year2])
 
 table['growth'] = np.true_divide(table[year2]-table[year1], table[year1])
 
@@ -235,6 +235,8 @@ display(df)
 # Visualization 5)
 # Top States with postings outside their borders
 ############################################################ 
+
+post = main_table.merge(mask, on='Job ID', how='inner')
 
 cat1 = 'Institution_State'
 cat2 = 'State'
